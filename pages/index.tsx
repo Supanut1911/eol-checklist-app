@@ -11,6 +11,7 @@ import { Inter } from "next/font/google";
 import appdata from '../data/appdata'
 import { PlatformInfo } from "@/types/app_data";
 import Image from "next/image";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -38,7 +39,9 @@ export default function Home() {
                 </div>
               </CardContent>
               <CardFooter>
-                <Button>View EOL</Button>
+                <Button>
+                  <Link href={`/platform/${card.name}`}>View EOL</Link>
+                </Button>
               </CardFooter>
             </Card>
           )

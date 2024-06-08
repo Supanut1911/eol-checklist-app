@@ -1,42 +1,60 @@
-import { AppDataType } from "@/types/app_data_type"
+import { PlatformInfo } from "@/types/app_data"
 
-const appDatas: AppDataType[]= [
+const appDatas: PlatformInfo[]= [
     {
         id: 1,
-        name: 'Angular',
+        name: 'Google Kubernetes Engine',
         description: 'Angular is a platform and framework for building single-page client applications using HTML and TypeScript. Angular is written in TypeScript. It implements core and optional functionality as a set of TypeScript libraries that you import into your apps.',
-        imageUrl: 'https://angular.io/assets/images/logos/angular/angular.svg'
+        imageUrl: '/assets/gke.png'
     },
     {
         id: 2,
-        name: 'React',
+        name: 'Argo-cd',
         description: 'React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications.',
-        imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg'
+        imageUrl: '/assets/argo.png'
     },
     {
         id: 3,
-        name: 'Vue',
+        name: 'Grafana',
         description: 'Vue.js is an open-source model–view–viewmodel front end JavaScript framework for building user interfaces and single-page applications. It was created by Evan You, and is maintained by him and the rest of the active core team members.',
-        imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/5/53/Vue.js_Logo_2.svg'
+        imageUrl: '/assets/grafana.png'
     },
     {
         id: 4,
-        name: 'Vue',
+        name: 'Mongodb',
         description: 'Vue.js is an open-source model–view–viewmodel front end JavaScript framework for building user interfaces and single-page applications. It was created by Evan You, and is maintained by him and the rest of the active core team members.',
-        imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/5/53/Vue.js_Logo_2.svg'
+        imageUrl: '/assets/mongo3.png'
     },
     {
         id: 5,
-        name: 'Vue',
+        name: 'Cert-manager',
         description: 'Vue.js is an open-source model–view–viewmodel front end JavaScript framework for building user interfaces and single-page applications. It was created by Evan You, and is maintained by him and the rest of the active core team members.',
-        imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/5/53/Vue.js_Logo_2.svg'
+        imageUrl: '/assets/certmanager.png'
     },
     {
         id: 6,
-        name: 'Vue',
+        name: 'Gitlab',
         description: 'Vue.js is an open-source model–view–viewmodel front end JavaScript framework for building user interfaces and single-page applications. It was created by Evan You, and is maintained by him and the rest of the active core team members.',
-        imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/5/53/Vue.js_Logo_2.svg'
+        imageUrl: '/assets/gitlab.jpeg'
     },
+    {
+        id: 7,
+        name: 'Kong',
+        description: 'Vue.js is an open-source model–view–viewmodel front end JavaScript framework for building user interfaces and single-page applications. It was created by Evan You, and is maintained by him and the rest of the active core team members.',
+        imageUrl: '/assets/kongapi.png'
+    },
+    {
+        id: 8,
+        name: 'Nodejs',
+        description: 'Vue.js is an open-source model–view–viewmodel front end JavaScript framework for building user interfaces and single-page applications. It was created by Evan You, and is maintained by him and the rest of the active core team members.',
+        imageUrl: '/assets/nodejs.png'
+    },    {
+        id: 9,
+        name: 'Angular',
+        description: 'Vue.js is an open-source model–view–viewmodel front end JavaScript framework for building user interfaces and single-page applications. It was created by Evan You, and is maintained by him and the rest of the active core team members.',
+        imageUrl: '/assets/angular.jpeg'
+    },
+
     
 
 ]

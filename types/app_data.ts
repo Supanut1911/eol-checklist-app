@@ -1,4 +1,4 @@
-export interface AppDataType {
+export interface PlatformInfo {
     id: number;
     name: string;
     description: string;
